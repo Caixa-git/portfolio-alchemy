@@ -1,0 +1,24 @@
+# Build
+build/
+obj/
+*.o
+
+# Runtime
+alchemy.mem
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+test/logs/
+
+# Dev leftovers
+prompt.txt
+*.deb
+*.Zone.Identifier
+*.pptx
+.alchemy/

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head><meta charset="utf-8"><title>Alchemy-C Test Results</title>
+<style>
+body { background:#1a1a2e; color:#e0e0e0; font-family:'Courier New',monospace; padding:40px; }
+h1 { color:#00d4aa; font-size:24px; }
+.box { background:#16213e; border:1px solid #0f3460; border-radius:8px; padding:20px; margin:20px 0; }
+.pass { color:#00d4aa; font-weight:bold; }
+.fail { color:#ff6b6b; font-weight:bold; }
+.summary { font-size:18px; margin-top:20px; }
+.path { color:#888; font-size:12px; margin-top:30px; }
+</style>
+</head>
+<body>
+<h1>🧪 Alchemy-C Integration Test Suite</h1>
+<div class="box">
+  <pre>
+==============================================
+  Alchemy-C Integration Test Suite
+  2026-05-08 21:22:25
+==============================================
+
+  [step0-http] <span class="pass">PASS</span>
+  [step1-ssl]  <span class="pass">PASS</span>
+
+==============================================
+  <span class="pass">✅ ALL TESTS PASSED</span>
+  PASS: 2  FAIL: 0  TOTAL: 2
+==============================================
+  </pre>
+</div>
+<div class="summary">
+  ✅ Step 0: TCP HTTP GET — example.com:80 — <span class="pass">200 OK</span><br>
+  ✅ Step 1: TLS HTTPS — example.com:443 — <span class="pass">200 OK</span><br>
+  🔒 Log system: alchemy_log.h (ring buffer, LTSV, zero-alloc)<br>
+  🧪 Test framework: alchemy_test.h (auto-register, ASSERT macros)
+</div>
+<div class="path">📁 screenshots/test-result-2026-05-08.png</div>
+</body>
+</html>

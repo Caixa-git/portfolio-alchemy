@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head><meta charset="utf-8"><title>Alchemy-C Test Results</title>
+<style>
+body{background:#1a1a2e;color:#e0e0e0;font-family:'Courier New',monospace;padding:40px;}
+h1{color:#00d4aa;}
+.box{background:#16213e;border:1px solid #0f3460;border-radius:8px;padding:20px;margin:20px 0;}
+.pass{color:#00d4aa;font-weight:bold;}
+.fail{color:#ff6b6b;}
+.summ{color:#888;font-size:14px;margin-top:10px;}
+table{width:100%;border-collapse:collapse;margin-top:10px;}
+th,td{text-align:left;padding:8px;border-bottom:1px solid #333;}
+th{color:#00d4aa;}
+</style>
+</head>
+<body>
+<h1>🧪 Alchemy-C Step 2 Test Results</h1>
+<div class="box">
+  <pre>
+==============================================
+  Alchemy-C Integration Test Suite
+  2026-05-08 21:37:15
+==============================================
+
+  [step0-http] <span class="pass">PASS</span>
+  [step1-ssl]  <span class="pass">PASS</span>
+  [step2-llm]  <span class="pass">PASS</span>
+
+==============================================
+  <span class="pass">✅ ALL TESTS PASSED</span>
+  PASS: 3  FAIL: 0  TOTAL: 3
+==============================================
+  </pre>
+</div>
+
+<h2>📊 Step별 바이너리 크기</h2>
+<table>
+<tr><th>Step</th><th>설명</th><th>text</th><th>dec</th><th>strip</th></tr>
+<tr><td>0</td><td>TCP HTTP</td><td>3,992</td><td>4,736</td><td>-</td></tr>
+<tr><td>1</td><td>SSL HTTPS</td><td>7,109</td><td>12,099</td><td>14,472</td></tr>
+<tr><td>2</td><td>LLM API</td><td>10,783</td><td>15,813</td><td>22,704</td></tr>
+</table>
+<div class="summ">📁 screenshots/test-step2-2026-05-08.png</div>
+</body>
+</html>
